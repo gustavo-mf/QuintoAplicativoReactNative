@@ -33,8 +33,6 @@ import com.android.build.OutputFile
  *   // bundleInPaidRelease: true,
  *   // bundleInBeta: true,
  *
-<<<<<<< HEAD
-=======
  *   // whether to disable dev mode in custom build variants (by default only disabled in release)
  *   // for example: to disable dev mode in the staging build type (if configured)
  *   devDisabledInStaging: true,
@@ -42,7 +40,6 @@ import com.android.build.OutputFile
  *   //         'devDisabledIn${productFlavor}${buildType}'
  *   //         'devDisabledIn${buildType}'
  *
->>>>>>> 8de7711cb6fee7bb94afde0092cffad45dcc19a4
  *   // the root of your project, i.e. where "package.json" lives
  *   root: "../../",
  *
@@ -75,13 +72,10 @@ import com.android.build.OutputFile
  * ]
  */
 
-<<<<<<< HEAD
-=======
 project.ext.react = [
     entryFile: "index.js"
 ]
 
->>>>>>> 8de7711cb6fee7bb94afde0092cffad45dcc19a4
 apply from: "../../node_modules/react-native/react.gradle"
 
 /**

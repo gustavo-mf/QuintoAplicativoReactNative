@@ -25,14 +25,11 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage()
       );
     }
-<<<<<<< HEAD
-=======
 
     @Override
     protected String getJSMainModuleName() {
       return "index";
     }
->>>>>>> 8de7711cb6fee7bb94afde0092cffad45dcc19a4
   };
 
   @Override
